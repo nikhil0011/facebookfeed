@@ -22,16 +22,16 @@ class FeedController: UICollectionViewController {
         postbyMark.statusText = "You code only once but it effects by millions Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta sodales neque, quis porta elit faucibus quis. Morbi vitae luctus nibh, id volutpat mauris. Integer sagittis sagittis nisi vitae "
         postbyMark.profileImageName = "zuckprofile"
         postbyMark.location = "January 18 ・ San Hose ・"
-        postbyMark.statusImageName = "gandhi_status"
+        postbyMark.statusImageName = "https://i.pinimg.com/564x/36/cb/3e/36cb3e8edbc43330e2eb50652f4cd170.jpg"
         postbyMark.numLikes = 190
-        postbyMark.numComment = 100000000
+        postbyMark.numComment = 1000
         
         let postbySteve = Post()
         postbySteve.name = "Alan Walker"
         postbySteve.statusText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta sodales neque, quis porta elit faucibus quis. Morbi vitae luctus nibh, id volutpat mauris. Integer sagittis sagittis nisi vitae suscipit. Phasellus nisl mauris, gravida ac neque a, venenatis pulvinar eros. Sed tempus tellus quam, ut convallis orci lobortis sit amet. Donec enim risus, dignissim ac velit non, varius iaculis turpis. Nam et elementum leo. Aliquam vehicula mi quis justo dictum euismod. Praesent sit amet porttitor nisl, sit amet semper neque. Donec sit amet ipsum eget mi aliquet iaculis eget et ligula. Etiam a orci non libero vestibulum fermentum nec quis mauris."
         postbySteve.profileImageName = "steve_profile"
         postbySteve.location = "December 18 ・ London ・"
-        postbySteve.statusImageName = "steve_status"
+        postbySteve.statusImageName = "https://i.pinimg.com/564x/a4/48/9e/a4489ecc55fb154000c92270c0fbb645.jpg"
         postbySteve.numLikes = 440
         postbySteve.numComment = 9900
         
