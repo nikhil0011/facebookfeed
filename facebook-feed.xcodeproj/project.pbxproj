@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8423BEFF2137D6E300D5DBA1 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423BEFE2137D6E300D5DBA1 /* DemoViewController.swift */; };
 		844BBEA6213408E200A95E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEA5213408E200A95E0A /* AppDelegate.swift */; };
 		844BBEA8213408E200A95E0A /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEA7213408E200A95E0A /* FeedController.swift */; };
 		844BBEAE213408E200A95E0A /* facebook_feed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEAC213408E200A95E0A /* facebook_feed.xcdatamodeld */; };
@@ -15,6 +16,10 @@
 		844BBEBE213408E500A95E0A /* facebook_feedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEBD213408E500A95E0A /* facebook_feedTests.swift */; };
 		844BBEC9213408E500A95E0A /* facebook_feedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEC8213408E500A95E0A /* facebook_feedUITests.swift */; };
 		844E0FD22136BB0A00B57D4C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E0FD12136BB0A00B57D4C /* Post.swift */; };
+		84664714213C0BDD00DBF4E3 /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84664713213C0BDD00DBF4E3 /* ZoomImageViewController.swift */; };
+		84BDEB5221384A4A00B44FFB /* AutoGrowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEB5121384A4A00B44FFB /* AutoGrowingTableViewController.swift */; };
+		84BDEB5421384AC300B44FFB /* AutogrowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEB5321384AC300B44FFB /* AutogrowingTableViewCell.swift */; };
+		84BDEB5621387A6300B44FFB /* FacebookLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEB5521387A6300B44FFB /* FacebookLikeViewController.swift */; };
 		84E3AD1021352D3C00607002 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3AD0F21352D3C00607002 /* FeedCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8423BEFE2137D6E300D5DBA1 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		844BBEA2213408E200A95E0A /* facebook-feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844BBEA5213408E200A95E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844BBEA7213408E200A95E0A /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
@@ -50,6 +56,10 @@
 		844BBEC8213408E500A95E0A /* facebook_feedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebook_feedUITests.swift; sourceTree = "<group>"; };
 		844BBECA213408E500A95E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844E0FD12136BB0A00B57D4C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		84664713213C0BDD00DBF4E3 /* ZoomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
+		84BDEB5121384A4A00B44FFB /* AutoGrowingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoGrowingTableViewController.swift; sourceTree = "<group>"; };
+		84BDEB5321384AC300B44FFB /* AutogrowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutogrowingTableViewCell.swift; sourceTree = "<group>"; };
+		84BDEB5521387A6300B44FFB /* FacebookLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLikeViewController.swift; sourceTree = "<group>"; };
 		84E3AD0F21352D3C00607002 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +119,11 @@
 				844BBEAC213408E200A95E0A /* facebook_feed.xcdatamodeld */,
 				84E3AD0F21352D3C00607002 /* FeedCollectionViewCell.swift */,
 				844E0FD12136BB0A00B57D4C /* Post.swift */,
+				8423BEFE2137D6E300D5DBA1 /* DemoViewController.swift */,
+				84BDEB5121384A4A00B44FFB /* AutoGrowingTableViewController.swift */,
+				84BDEB5321384AC300B44FFB /* AutogrowingTableViewCell.swift */,
+				84BDEB5521387A6300B44FFB /* FacebookLikeViewController.swift */,
+				84664713213C0BDD00DBF4E3 /* ZoomImageViewController.swift */,
 			);
 			path = "facebook-feed";
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				844BBEAE213408E200A95E0A /* facebook_feed.xcdatamodeld in Sources */,
+				84664714213C0BDD00DBF4E3 /* ZoomImageViewController.swift in Sources */,
+				84BDEB5621387A6300B44FFB /* FacebookLikeViewController.swift in Sources */,
 				844BBEA8213408E200A95E0A /* FeedController.swift in Sources */,
+				84BDEB5421384AC300B44FFB /* AutogrowingTableViewCell.swift in Sources */,
 				84E3AD1021352D3C00607002 /* FeedCollectionViewCell.swift in Sources */,
+				8423BEFF2137D6E300D5DBA1 /* DemoViewController.swift in Sources */,
 				844BBEA6213408E200A95E0A /* AppDelegate.swift in Sources */,
+				84BDEB5221384A4A00B44FFB /* AutoGrowingTableViewController.swift in Sources */,
 				844E0FD22136BB0A00B57D4C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

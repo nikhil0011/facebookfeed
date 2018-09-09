@@ -21,9 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         let controller = FeedController(collectionViewLayout: UICollectionViewFlowLayout())
+//        let demoController = ZoomImageViewController()
+//        let fbController = FacebookLikeViewController()
+        let tvc = AutoGrowingTableViewController()
         let navController = UINavigationController(rootViewController: controller)
+//        let navController = UINavigationController(rootViewController: fbController)
+
         window?.rootViewController = navController
-        
+        navController.navigationBar.tintColor  = .white
+
         UINavigationBar.appearance().barTintColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1)
         UINavigationBar.appearance().titleTextAttributes   = [NSAttributedStringKey.foregroundColor: UIColor.white]
         application.statusBarStyle = .lightContent
