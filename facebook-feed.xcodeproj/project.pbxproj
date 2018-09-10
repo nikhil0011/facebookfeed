@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841D93A22146645F00017336 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D93A12146645F00017336 /* ChatTableViewController.swift */; };
+		841D93A4214672F200017336 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D93A3214672F200017336 /* ChatTableViewCell.swift */; };
 		8423BEFF2137D6E300D5DBA1 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423BEFE2137D6E300D5DBA1 /* DemoViewController.swift */; };
 		844BBEA6213408E200A95E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEA5213408E200A95E0A /* AppDelegate.swift */; };
 		844BBEA8213408E200A95E0A /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BBEA7213408E200A95E0A /* FeedController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841D93A12146645F00017336 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		841D93A3214672F200017336 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		8423BEFE2137D6E300D5DBA1 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		844BBEA2213408E200A95E0A /* facebook-feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844BBEA5213408E200A95E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				84BDEB5321384AC300B44FFB /* AutogrowingTableViewCell.swift */,
 				84BDEB5521387A6300B44FFB /* FacebookLikeViewController.swift */,
 				84664713213C0BDD00DBF4E3 /* ZoomImageViewController.swift */,
+				841D93A12146645F00017336 /* ChatTableViewController.swift */,
+				841D93A3214672F200017336 /* ChatTableViewCell.swift */,
 			);
 			path = "facebook-feed";
 			sourceTree = "<group>";
@@ -282,8 +288,10 @@
 				844BBEA8213408E200A95E0A /* FeedController.swift in Sources */,
 				84BDEB5421384AC300B44FFB /* AutogrowingTableViewCell.swift in Sources */,
 				84E3AD1021352D3C00607002 /* FeedCollectionViewCell.swift in Sources */,
+				841D93A22146645F00017336 /* ChatTableViewController.swift in Sources */,
 				8423BEFF2137D6E300D5DBA1 /* DemoViewController.swift in Sources */,
 				844BBEA6213408E200A95E0A /* AppDelegate.swift in Sources */,
+				841D93A4214672F200017336 /* ChatTableViewCell.swift in Sources */,
 				84BDEB5221384A4A00B44FFB /* AutoGrowingTableViewController.swift in Sources */,
 				844E0FD22136BB0A00B57D4C /* Post.swift in Sources */,
 			);

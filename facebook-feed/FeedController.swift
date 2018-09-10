@@ -211,7 +211,7 @@ class FeedController: UICollectionViewController {
     }
 
     @objc func openComments(sender: UIButton){
-        self.navigationController?.pushViewController(ZoomImageViewController(), animated: true)
+        self.navigationController?.pushViewController(ChatTableViewController(), animated: true)
     }
     @objc func openShare(sender: UIButton){
         self.navigationController?.pushViewController(AutoGrowingTableViewController(), animated: true)
